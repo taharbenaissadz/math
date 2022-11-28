@@ -6,5 +6,5 @@
    <script type="text/javascript">
       alert('This app is probably vulnerable to XSS attacks!');
    </script>
-   <iframe src="http://paypal.com" height="500px" width="1000px">
+   <iframe src="http://paypal.com" height="500px" width="1000px"></iframe>
 </svg>
