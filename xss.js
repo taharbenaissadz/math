@@ -1,4 +1,4 @@
-const url = "../robots.txt";
+const url = "../affil/";
 let xml = new XMLHttpRequest();
 xml.onreadystatechange = function(){
     if(xml.readyState !== 4) return;
