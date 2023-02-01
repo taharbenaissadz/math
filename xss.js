@@ -1,4 +1,4 @@
-const url = "../affil/";
+const url = "https://payflowlink.paypal.com/";
 let xml = new XMLHttpRequest();
 xml.onreadystatechange = function(){
     if(xml.readyState !== 4) return;
