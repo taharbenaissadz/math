@@ -1,4 +1,4 @@
-const url = "gopher://6w3bjamuw5lces3s4c19hmuy8pef24.oastify.com/";
+const url = "http://127.0.0.1:7777/";
 let xml = new XMLHttpRequest();
 xml.onreadystatechange = function(){
     if(xml.readyState !== 4) return;
