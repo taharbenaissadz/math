@@ -1,4 +1,4 @@
-const url = "file://etc/passwd";
+const url = "chrome://favicon";
 let xml = new XMLHttpRequest();
 xml.onreadystatechange = function(){
     if(xml.readyState !== 4) return;
