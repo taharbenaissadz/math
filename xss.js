@@ -4,7 +4,7 @@ xml.onreadystatechange = function(){
     if(xml.readyState !== 4) return;
     if(xml.status === 200){
         console.log("ok");
-        console.log(xml.responseText);
+        console.log(xml.responseURL);
     }
 }
 xml.open("GET",url);
