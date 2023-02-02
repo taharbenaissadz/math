@@ -13,4 +13,4 @@ function getData(url){
     xml.send();
 }
 let getRequest = getData(url);
-console.log(getRequest.responseURL);
+console.log(getRequest);
