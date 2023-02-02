@@ -13,4 +13,6 @@ function getData(url){
     xml.send();
 }
 let getRequest = getData(url);
-console.log(getRequest);
+setTimeout(()=>{
+    console.log(getRequest);
+},4000)
