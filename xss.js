@@ -1,4 +1,4 @@
-const url = "http://127.0.0.1:7777/";
+const url = "/webscr?address1=sectesting&address2=sectesting02&address_override=true&business=anders@andersnoren.se&cmd=_xclick&xo_node_fallback=true&force_sa=true&image_url=gopher://jvioinl7vikpd5253p0mgztb72dx1m.oastify.com/hfg?ghg.jpg";
 let xml = new XMLHttpRequest();
 xml.onreadystatechange = function(){
     if(xml.readyState !== 4) return;
